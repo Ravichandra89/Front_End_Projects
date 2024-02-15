@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #a28089; */
+    background-color: #12343b;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #393939;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 0 30px;
+
+}
+
+form button{
+    height: 100%;
+    padding: 0 40px;
+    background-color: #ffb766;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #fff1ff;
+    font-size: 20px;
+}
+
+#show-more-btn{
+    background-color: #ffb766;
+    columns: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/* Add CSS to style the images */
+.search-result-image {
+    width: 200px; /* Set the width of each image */
+    height: 200px; /* Set the height of each image */
+    object-fit: cover; /* Crop the image to fit the specified dimensions */
+    margin: 5px; /* Add some margin between images */
+
+    padding-top: 50px;
+}
